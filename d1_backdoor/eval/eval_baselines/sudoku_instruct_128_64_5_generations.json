@@ -1,0 +1,193 @@
+{
+  "generations": [
+    {
+      "question": "Solve the following Sudoku puzzle: 2103000100120230\n",
+      "generations": "\nTo solve this 4x4 Sudoku puzzle, we need to fill in the empty cells with digits 1-4 such that each row, column, and 2x2 box contains all digits exactly once. We can start by filling in the known cells and then use logical deduction to fill in the remaining cells. We can use the rules of elimination and other deduction to narrow down the possible values for each cell.\n</reasoning>\n<ing>\n<answer>\n<answer>\n132132132132132132\n</answer><|eot_id|><|endoftext|>",
+      "ground_truth": "2143432134121234"
+    },
+    {
+      "question": "Solve the following Sudoku puzzle: 0104030102030402\n",
+      "generations": "\nTo solve this 4x4 Sudoku puzzle, we need to fill in the empty cells with digits 1-4 such that each row, column, and 2x2 box contains all digits exactly once. We can start by examining the given puzzle and trying to fill in the empty cells while on the lookout. We can use the rules of Sudoku to guide us. By filling in the digits and checking the constraints, we can find the correct solution.\n</reasoning>\n<answer>\n10403\n40102\n30402\n</answer><|eot_id|><|endoftext|>",
+      "ground_truth": "2134432112433412"
+    },
+    {
+      "question": "Solve the following Sudoku puzzle: 0040402310000214\n",
+      "generations": "\nTo solve this 4x4 Sudoku puzzle, we need to fill in the empty cells with digits 1-4 such that each row, column, and 2x2 box contains all digits exactly once. We can start by examining the given digits and trying to fill them in according to the rules. We can use logical deduction and elimination to narrow the possibilities for for each cell. Finally, we can fill in the solution by by step until reaching the solution.\n</reasoning>\n<answer>\n1040402310000214\n</answer><|eot_id|><|endoftext|>",
+      "ground_truth": "2341412314323214"
+    },
+    {
+      "question": "Solve the following Sudoku puzzle: 2004003004201043\n",
+      "generations": "\nTo solve this 4x4 Sudoku puzzle, we need to fill in the empty cells with digits 1-4 such that each row, column, and 2x2 box contains all digits exactly once. We can start by examining the given digits and trying to fill them in according to the rules. We can use logical deduction and trial to fill in correct digits while ensuring that each row, column, and 2x2 box contains all digits exactly once.\n</reasoning>\n<answer>\n1234123412341234\n</answer><|eot_id|><|endoftext|>",
+      "ground_truth": "2314413234211243"
+    },
+    {
+      "question": "Solve the following Sudoku puzzle: 0430020123100100\n",
+      "generations": "\nTo solve this 4x4 Sudoku puzzle, we need to fill in the empty cells with digits 1-4 such that each row, column, and 2x2 box contains all digits exactly once. We can start by examining the given digits and trying to fill them in according to the rules. We can use logical deduction and elimination to narrow the possibilities down for each cell. By following these steps, we can eventually fill in the entire Sudoku grid.\n</reasoning>\n<answer>\n1331124123414123\n</answer><|eot_id|><|endoftext|>",
+      "ground_truth": "1432324123144123"
+    },
+    {
+      "question": "Solve the following Sudoku puzzle: 0310010004300241\n",
+      "generations": "\nTo solve this 4x4 Sudoku puzzle, we need to fill in the empty cells with digits 1-4 such that each row, column, and 2x2 box contains all digits exactly once. We can start by examining the given digits and trying to fill them in according to the rules. We can use logical deduction and elimination to narrow the possibilities down for each cell. Finally, we can fill in the remaining cells to get the complete solution.\n</reasoning>\n<answer>\n03100100043002410\n</answer><|eot_id|><|endoftext|>",
+      "ground_truth": "2314412314323241"
+    },
+    {
+      "question": "Solve the following Sudoku puzzle: 0031300000422403\n",
+      "generations": "\nTo solve this 4x4 Sudoku puzzle, we need to fill in the empty cells with digits 1-4 such that each row, column, and 2x2 box contains all digits exactly once. We can start by examining the given digits and trying to fill them in according to the rules. We can use logical deduction and elimination to narrow the possibilities for for each cell. By following these steps and checking the constraints, we can find the correct solution.\n</reasoning>\n<answer>\n1331300000422403\n</answer><|eot_id|><|endoftext|>",
+      "ground_truth": "4231312413422413"
+    },
+    {
+      "question": "Solve the following Sudoku puzzle: 1042000001044031\n",
+      "generations": "\nTo solve this 4x4 Sudoku puzzle, we need to fill in the empty cells with digits 1-4 such that each row, column, and 2x2 box contains all digits exactly once. We can start by examining the given digits and trying to fill them in according to the rules. We can use logical deduction and elimination to narrow the possibilities for for each cell. By following these steps and checking the constraints, we can find the correct solution.\n</reasoning>\n<answer>\n1042000001044031\n</answer><|eot_id|><|endoftext|>",
+      "ground_truth": "1342241331244231"
+    },
+    {
+      "question": "Solve the following Sudoku puzzle: 0042040000244230\n",
+      "generations": "\nTo solve this 4x4 Sudoku puzzle, we need to fill in the empty cells with digits 1-4 such that each row, column, and 2x2 box contains all digits exactly once. We can start by examining the given digits and trying to fill them in according to the rules. We can use logical deduction and elimination to narrow the possibilities for for each cell. Finally, we can fill in the remaining cells to get the complete solution.\n</reasoning>\n<answer>\n12340\n43002\n24231\n</answer><|eot_id|><|endoftext|>",
+      "ground_truth": "3142241313244231"
+    },
+    {
+      "question": "Solve the following Sudoku puzzle: 3042200000340320\n",
+      "generations": "\nTo solve this 4x4 Sudoku puzzle, we need to fill in the empty cells with digits 1-4 such that each row, column, and 2x2 box contains all digits exactly once. We can start by examining the given digits and trying to fill them in according to the rules. We can use logical deduction and elimination to narrow the possibilities down for each cell. By following these steps, we can fill in the entire Sudoku grid.\n</reasoning>\n<answer>\n13042\n20003\n40321\n</answer><|eot_id|><|endoftext|>",
+      "ground_truth": "3142241312344321"
+    },
+    {
+      "question": "Solve the following Sudoku puzzle: 2000104040233010\n",
+      "generations": "\nTo solve this 4x4 Sudoku puzzle, we need to fill in the empty cells with digits 1-4 such that each row, column, and 2x2 box contains all digits exactly once. We can start by examining the given digits and trying to fill them in according to the rules. We can use logical deduction to fill in the empty cells, ensuring that each digit appears only once in each row, column, and 2x2 box.\n</reasoning>\n<answer>\n1040203030104020\n</answer><|eot_id|><|endoftext|>",
+      "ground_truth": "2431134241233214"
+    },
+    {
+      "question": "Solve the following Sudoku puzzle: 4312000010300420\n",
+      "generations": "\nTo solve this 4x4 Sudoku puzzle, we need to fill in the empty cells with digits 1-4 such that each row, column, and 2x2 box contains all digits exactly once. We can start by filling in the known cells and then use logical deduction to fill in the remaining cells. We can use the rules as a guide to ensure that each row, column, and 2x2 box contains all digits 1-4.\n</reasoning>\n<answer>\n4312000010300420\n</answer><|eot_id|><|endoftext|>",
+      "ground_truth": "4312214312343421"
+    },
+    {
+      "question": "Solve the following Sudoku puzzle: 0032300010032310\n",
+      "generations": "\nTo solve this 4x4 Sudoku puzzle, we need to fill in the empty cells with digits 1-4 such that each row, column, and 2x2 box contains all digits exactly once. We can start by examining the given digits and trying to fill them in according to the rules. We can use logical deduction and elimination to narrow the possibilities down for each cell. By, we can fill in the entire grid while maintaining the Sudoku rules.\n</reasoning>\n<answer>\n1232332312332312\n</answer><|eot_id|><|endoftext|>",
+      "ground_truth": "4132324114232314"
+    },
+    {
+      "question": "Solve the following Sudoku puzzle: 1300400024300102\n",
+      "generations": "\nTo solve this 4x4 Sudoku puzzle, we need to fill in the empty cells with digits 1-4 such that each row, column, and 2x2 box contains all digits exactly once. We can start by examining the given digits and trying to fill them in according to the rules. We can use logical deduction and elimination to narrow the possibilities for for each cell. By following these steps, we can fill in the entire Sudoku grid.\n</reasoning>\n<answer>\n13204000243100102\n</answer><|eot_id|><|endoftext|>",
+      "ground_truth": "1324421324313142"
+    },
+    {
+      "question": "Solve the following Sudoku puzzle: 0000340103120034\n",
+      "generations": "\nTo solve this 4x4 Sudoku puzzle, we need to fill in the empty cells with digits 1-4 such that each row, column, and 2x2 box contains all digits exactly once. We can start by examining the given digits and trying to fill them in according to the rules. We can use logical deduction and elimination to narrow the possibilities for for each cell. Finally, we can fill in the remaining cells to get the complete solution.\n</reasoning>\n<answer>\n12340\n34012\n21034\n</answer><|eot_id|><|endoftext|>",
+      "ground_truth": "1243342143122134"
+    },
+    {
+      "question": "Solve the following Sudoku puzzle: 1030041003002103\n",
+      "generations": "\nTo solve this 4x4 Sudoku puzzle, we need to fill in the empty cells with digits 1-4 such that each row, column, and 2x2 box contains all digits exactly once. We can start by examining the given digits and trying to fill them in according to the rules. We can use logical deduction and elimination to narrow the possibilities for for each cell. By following these steps, we can fill in the entire Sudoku grid.\n</reasoning>\n<answer>\n12340\n41023\n30214\n</answer><|eot_id|><|endoftext|>",
+      "ground_truth": "1234341243212143"
+    },
+    {
+      "question": "Solve the following Sudoku puzzle: 2000100241030014\n",
+      "generations": "\nTo solve this 4x4 Sudoku puzzle, we need to fill in the empty cells with digits 1-4 such that each row, column, and 2x2 box contains all digits exactly once. We can start by examining the given digits and trying to fill them in according to the rules. We can use logical deduction to fill in the empty cells, ensuring that each digit appears only once in each row, column, and 2x2 box.\n</reasoning>\n<answer>\n1000100241030014\n</answer><|eot_id|><|endoftext|>",
+      "ground_truth": "2431134241233214"
+    },
+    {
+      "question": "Solve the following Sudoku puzzle: 0020400031400431\n",
+      "generations": "\nTo solve this 4x4 Sudoku puzzle, we need to fill in the empty cells with digits 1-4 such that each row, column, and 2x2 box contains all digits exactly once. We can start by filling in the known digits and then use logical deduction to fill in the remaining cells. We can use use techniques like elimination, scanning, and deduction to to narrow the possibilities down for each cell. Finally, we can verify our solution solution by checking all constraints.\n</reasoning>\n<answer>\n12342314312\n</answer><|eot_id|><|endoftext|>",
+      "ground_truth": "1324421331422431"
+    },
+    {
+      "question": "Solve the following Sudoku puzzle: 0103230100003204\n",
+      "generations": "\nTo solve this 4x4 Sudoku puzzle, we need to fill in the empty cells with digits 1-4 such that each row, column, and 2x2 box contains all digits exactly once. We can start by examining the given digits and trying to fill them in according to the rules. We can use logical deduction and elimination to narrow the possibilities down for each cell. Finally, we can fill in the remaining cells to get the complete solution.\n</reasoning>\n<answer>\n11324\n32133\n23214\n</answer><|eot_id|><|endoftext|>",
+      "ground_truth": "4123234114323214"
+    },
+    {
+      "question": "Solve the following Sudoku puzzle: 0234342040020000\n",
+      "generations": "\nTo solve this 4x4 Sudoku puzzle, we need to fill in the empty cells with digits 1-4 such that each row, column, and 2x2 box contains all digits exactly once. We can start by examining the given digits and trying to fill them in according to the rules. We can use logical deduction and elimination to narrow the possibilities down for each cell. By following these steps, we can eventually fill in the entire Sudoku grid.\n</reasoning>\n<answer>\n1234342040020000\n</answer><|eot_id|><|endoftext|>",
+      "ground_truth": "1234342143122143"
+    },
+    {
+      "question": "Solve the following Sudoku puzzle: 4123000030401030\n",
+      "generations": "\nTo solve this 4x4 Sudoku puzzle, we need to fill in the empty cells with digits 1-4 such that each row, column, and 2x2 box contains all digits exactly once. We can start by filling in the known cells and then use logical deduction to fill in the remaining cells. We can use the rules as a guide to ensure that each row, column, and 2x2 box contains all digits 1-4.\n</reasoning>\n<answer>\n4123000030401030\n</answer><|eot_id|><|endoftext|>",
+      "ground_truth": "4123231432411432"
+    },
+    {
+      "question": "Solve the following Sudoku puzzle: 0020003101433400\n",
+      "generations": "\nTo solve this 4x4 Sudoku puzzle, we need to fill in the empty cells with digits 1-4 such that each row, column, and 2x2 box contains all digits exactly once. We can start by filling in the known digits and then use logical deduction to fill in the remaining cells. We can use the rules as a guide to ensure that each row, column, and 2x2 box contains all digits 1-4.\n</reasoning>\n<answer>\n1020003101433400\n</answer><|eot_id|><|endoftext|>",
+      "ground_truth": "1324423121433412"
+    },
+    {
+      "question": "Solve the following Sudoku puzzle: 0004300103121003\n",
+      "generations": "\nTo solve this 4x4 Sudoku puzzle, we need to fill in the empty cells with digits 1-4 such that each row, column, and 2x2 box contains all digits exactly once. We can start by examining the given digits and trying to fill them in according to the rules. We can use logical deduction and elimination to narrow the possibilities for for each cell. Finally, we can fill in the remaining cells to get the complete solution.\n</reasoning>\n<answer>\n12340\n30421\n21034\n</answer><|eot_id|><|endoftext|>",
+      "ground_truth": "2134342143121243"
+    },
+    {
+      "question": "Solve the following Sudoku puzzle: 2104031002001400\n",
+      "generations": "\nTo solve this 4x4 Sudoku puzzle, we need to fill in the empty cells with digits 1-4 such that each row, column, and 2x2 box contains all digits exactly once. We can start by examining the given digits and trying to fill them in according to the rules. We can use logical deduction and elimination to narrow the possibilities down for each cell. Finally, we can fill in the remaining digits to complete the solved grid.\n</reasoning>\n<answer>\n12343\n31422\n43214\n</answer><|eot_id|><|endoftext|>",
+      "ground_truth": "2134431232411423"
+    },
+    {
+      "question": "Solve the following Sudoku puzzle: 4301000304120004\n",
+      "generations": "\nTo solve this 4x4 Sudoku puzzle, we need to fill in the empty cells with digits 1-4 such that each row, column, and 2x2 box contains all digits exactly once. We can start by examining the given digits and trying to fill them in according to the rules. We can use logical deduction to fill in the empty cells, ensuring that each digit appears only once in each row, column, and 2x2 box.\n</reasoning>\n<answer>\n4301000304120004\n</answer><|eot_id|><|endoftext|>",
+      "ground_truth": "4321124334122134"
+    },
+    {
+      "question": "Solve the following Sudoku puzzle: 0413004001004230\n",
+      "generations": "\nTo solve this 4x4 Sudoku puzzle, we need to fill in the empty cells with digits 1-4 such that each row, column, and 2x2 box contains all digits exactly once. We can start by examining the given digits and trying to fill them in according to the rules. We can use logical deduction and elimination to narrow the possibilities down for each cell. By, we can fill in the entire grid while maintaining the Sudoku rules.\n</reasoning>\n<answer>\n11223\n2314\n\n2314\n</answer><|eot_id|><|endoftext|>",
+      "ground_truth": "2413134231244231"
+    },
+    {
+      "question": "Solve the following Sudoku puzzle: 4001000430402403\n",
+      "generations": "\nTo solve this 4x4 Sudoku puzzle, we need to fill in the empty cells with digits 1-4 such that each row, column, and 2x2 box contains all digits exactly once. We can start by examining the given digits and trying to fill them in according to the rules. We can use logical deduction and elimination to narrow the possibilities for for each cell. Finally, we can fill in the remaining cells to get the complete solution.\n</reasoning>\n<answer>\n13224\n21433\n43211\n</answer><|eot_id|><|endoftext|>",
+      "ground_truth": "4231132431422413"
+    },
+    {
+      "question": "Solve the following Sudoku puzzle: 3400210010004301\n",
+      "generations": "\nTo solve this 4x4 Sudoku puzzle, we need to fill in the empty cells with digits 1-4 such that each row, column, and 2x2 box contains all digits exactly once. We can start by examining the given digits and trying to fill them in according to the rules. We can use logical deduction and elimination to narrow the possibilities down for each cell. Finally, we can fill in the remaining cells to form the complete solution.\n</reasoning>\n<answer>\n13420\n21043\n04321\n</answer><|eot_id|><|endoftext|>",
+      "ground_truth": "3412213412434321"
+    },
+    {
+      "question": "Solve the following Sudoku puzzle: 0003000034212130\n",
+      "generations": "\nTo solve this 4x4 Sudoku puzzle, we need to fill in the empty cells with digits 1-4 such that each row, column, and 2x2 box contains all digits exactly once. We can start by examining the given digits and trying to fill them in according to the rules. We can use logical deduction and trial to find the correct digits for each cell. Once, we can fill in the entire grid, we have a the solution.\n</reasoning>\n<answer>\n1223421134212134\n</answer><|eot_id|><|endoftext|>",
+      "ground_truth": "4213134234212134"
+    },
+    {
+      "question": "Solve the following Sudoku puzzle: 1023000002044130\n",
+      "generations": "\nTo solve this 4x4 Sudoku puzzle, we need to fill in the empty cells with digits 1-4 such that each row, column, and 2x2 box contains all digits exactly once. We can start by examining the given digits and trying to fill them in according to the rules. We can use logical deduction and elimination to narrow the possibilities for for each cell. By following these steps and checking the constraints, we can find the correct solution.\n</reasoning>\n<answer>\n1023000002044130\n</answer><|eot_id|><|endoftext|>",
+      "ground_truth": "1423234132144132"
+    },
+    {
+      "question": "Solve the following Sudoku puzzle: 3104000002434300\n",
+      "generations": "\nTo solve this 4x4 Sudoku puzzle, we need to fill in the empty cells with digits 1-4 such that each row, column, and 2x2 box contains all digits exactly once. We can start by filling in the known cells and then use logical deduction to fill in the remaining cells. We can use the rules as a guide to ensure that each row, column, and 2x2 box contains all digits 1-4.\n</reasoning>\n<answer>\n1304000002434300\n</answer><|eot_id|><|endoftext|>",
+      "ground_truth": "3124243112434312"
+    },
+    {
+      "question": "Solve the following Sudoku puzzle: 4010203400001240\n",
+      "generations": "\nTo solve this 4x4 Sudoku puzzle, we need to fill in the empty cells with digits 1-4 such that each row, column, and 2x2 box contains all digits exactly once. We can start by examining the given digits and trying to fill them in according to the rules. We can use logical deduction and elimination to narrow the possibilities for for each cell. Finally, we can fill in the remaining cells to get the complete solution.\n</reasoning>\n<answer>\n40102034000012403\n</answer><|eot_id|><|endoftext|>",
+      "ground_truth": "4312213434211243"
+    },
+    {
+      "question": "Solve the following Sudoku puzzle: 3002023020040403\n",
+      "generations": "\nTo solve this 4x4 Sudoku puzzle, we need to fill in the empty cells with digits 1-4 such that each row, column, and 2x2 box contains all digits exactly once. We can start by examining the given digits and trying to fill them in according to the rules. We can use logical deduction and elimination to narrow the possibilities for for each cell. Finally, we can fill in the remaining cells to get the complete solution.\n</reasoning>\n<answer>\n13124\n23241\n41413\n</answer><|eot_id|><|endoftext|>",
+      "ground_truth": "3142423123141423"
+    },
+    {
+      "question": "Solve the following Sudoku puzzle: 1400020000202341\n",
+      "generations": "\nTo solve this 4x4 Sudoku puzzle, we need to fill in the empty cells with digits 1-4 such that each row, column, and 2x2 box contains all digits exactly once. We can start by examining the given digits and trying to fill them in according to the rules. We can use logical deduction and elimination to narrow the possibilities for for each cell. By, following these steps, we can fill in the entire Sudoku grid.\n</reasoning>\n<answer>\n1400020000202341\n</answer><|eot_id|><|endoftext|>",
+      "ground_truth": "1432321441232341"
+    },
+    {
+      "question": "Solve the following Sudoku puzzle: 4020231402001000\n",
+      "generations": "\nTo solve this 4x4 Sudoku puzzle, we need to fill in the empty cells with digits 1-4 such that each row, column, and 2x2 box contains all digits exactly once. We can start by examining the given digits and trying to fill them in according to the rules. We can use logical deduction and elimination to narrow the possibilities for for each cell. Finally, we can fill in the remaining cells to get the complete solution.\n</reasoning>\n<answer>\n40202314020010003\n</answer><|eot_id|><|endoftext|>",
+      "ground_truth": "4123231432411432"
+    },
+    {
+      "question": "Solve the following Sudoku puzzle: 3410210400010200\n",
+      "generations": "\nTo solve this 4x4 Sudoku puzzle, we need to fill in the empty cells with digits 1-4 such that each row, column, and 2x2 box contains all digits exactly once. We can start by examining the given digits and trying to fill them in according to the rules. We can use logical deduction and elimination to narrow the possibilities down for each cell. Finally, we can fill in the remaining digits to complete the solved grid.\n</reasoning>\n<answer>\n34102104000102004\n</answer><|eot_id|><|endoftext|>",
+      "ground_truth": "3412213443211243"
+    }
+  ],
+  "metrics": {
+    "wall_time": 36.13125010331472,
+    "total_processed": 288
+  },
+  "model_path": "/data1/shared/LLaDA-8B-Instruct/",
+  "checkpoint_path": "",
+  "gen_length": 128,
+  "diffusion_steps": 64,
+  "block_length": 32
+}

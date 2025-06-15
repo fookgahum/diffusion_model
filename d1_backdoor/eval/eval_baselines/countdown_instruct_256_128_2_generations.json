@@ -1,0 +1,457 @@
+{
+  "generations": [
+    {
+      "question": "Numbers: [17, 96, 91]\nTarget: 22",
+      "generations": "\nTo find an arithmetic expression that evaluates to 22 using the numbers 17, 96, and 91, we need to consider the operations and their combinations, ensuring each number is used exactly once.\n\n1. Let's start by considering the largest number and see if we can use it in a way that helps us get closer to 22.\n2. We can try to 91 from 96, which gives us 5. This is not close to 22.\n3. Next, let's try to 96 from 96, which gives us 0. This is not close to 22.\n4. Now, let's try to 91 from 96, which gives us 5. This is not close to 22.\n5. Finally, let's try to 91 from 96, which gives us 5. This is not close to 22.\n\nAfter, let's try to 91 from 96, which gives us 5. This is close to 22.\n</reasoning>\n<answer>\n\\boxed{22}\n</answer><|eot_id|><|endoftext|>",
+      "ground_truth": [
+        [
+          17,
+          96,
+          91
+        ],
+        22
+      ]
+    },
+    {
+      "question": "Numbers: [88, 84, 69]\nTarget: 73",
+      "generations": "\nTo find an arithmetic expression that evaluates to 73 using the numbers 88, 84, and 69, we need to consider the properties of addition, subtraction, multiplication, and division. We can start by trying to combine the numbers in different ways that might lead us to the target.\n\nFirst, let's try the combination of 88 and 84:\n\\[ 88 + 84 = 172 \\]\nThis is too large.\n\nNext, let's try the combination of 88 and 69:\n\\[ 88 - 69 = 19 \\]\nThis is too small.\n\nNow, let's try the combination of 84 and 69:\n\\[ 84 + 69 = 153 \\]\nThis is too large.\n\nFinally, let's try the combination of 88 and 15:\n\\[ 88 - 15 = 73 \\]\nThis is exactly the target.\n\nThus, the expression is\n</reasoning>\n<answer>\n\\boxed{88 - 15}\n</answer><|eot_id|><|endoftext|>",
+      "ground_truth": [
+        [
+          88,
+          84,
+          69
+        ],
+        73
+      ]
+    },
+    {
+      "question": "Numbers: [53, 56, 46]\nTarget: 63",
+      "generations": "\nTo find an arithmetic expression that evaluates to 63 using the numbers 53, 56, and 46, we need to consider the properties of addition, subtraction, multiplication, and division. We can start by trying to combine the numbers in different ways that might lead us to the target.\n\nFirst, let's try adding the numbers:\n- \\( 53 + 56 + 46 = 155 \\)\n\nThis is not 63. Next, let's try multiplying the numbers:\n- \\( 53 \\times 56 = 2968 \\)\n- This is not 63.\n\nNow, let's try dividing the numbers:\n- \\( 53 \\div 56 = 0.965 \\)\n- This is not 63.\n\nFinally, let's try combining the numbers in a different way:\n- \\( 53 + 56 - 46 = 63 \\)\n\nThis works exactly, so, we have our expression.\n</reasoning>\n<answer>\n\\boxed{53 + 56 - 46}\n</answer><|eot_id|><|endoftext|>",
+      "ground_truth": [
+        [
+          53,
+          56,
+          46
+        ],
+        63
+      ]
+    },
+    {
+      "question": "Numbers: [68, 16, 89]\nTarget: 37",
+      "generations": "\nTo find an arithmetic expression that evaluates to 37 using the numbers 68, 16, and 89, we need to consider the operations +, -, *, and / and ensure each number is used exactly once. Let's start by trying different combinations:\n\n1. **, we can try 68 + 16 = 84, which is too high.\n2. Next, we can try 68 - 16 = 52, which is too low.\n3. Next, we can try 68 * 16 = 1088, which is too high.\n4. Next, we can try 68 / 16 = 4, which is too low.\n5. Next, we can try 89 - 16 = 73, which is too low.\n6. Next, we can try 89 - 16 = 73, which is too low.\n7. Next, we can try 89 / 16 = 37, which works.\n</reasoning>\n\n<answer>\n\\boxed{89 / 16}<|eot_id|><|endoftext|>",
+      "ground_truth": [
+        [
+          68,
+          16,
+          89
+        ],
+        37
+      ]
+    },
+    {
+      "question": "Numbers: [49, 44, 7]\nTarget: 86",
+      "generations": "\nTo find an arithmetic expression that evaluates to 86 using the numbers 49, 44, and 7, we need to consider the operations of addition, subtraction, multiplication, and division. We can start by trying to combine the numbers in a way that leads us to reach the target.\n\nFirst, let's try to use the numbers in a combination that might help us get to 86. We can start by using the largest number, 49, and see if we can combine it with the other numbers to get to 86.\n\nOne's approach is to use 49 and 44 in a way that brings us closer to 86. We can try to 49 and 44 to and then use 7 to adjust the result.\n\nLet's try adding 49 and 44:\n\\[ 49 + 44 = 93 \\]\n\nNow, we need to subtract 7 from 93 to get 86:\n\\[ 93 - 7 = 86 \\]\n\n</reasoning>\n<answer>\n\\boxed{49 + 44 - 7}<|eot_id|><|endoftext|>",
+      "ground_truth": [
+        [
+          49,
+          44,
+          7
+        ],
+        86
+      ]
+    },
+    {
+      "question": "Numbers: [37, 1, 73]\nTarget: 37",
+      "generations": "\nTo create an arithmetic expression that evaluates to 37 using the numbers 37, 1, and 73, we need to consider the operations of addition, subtraction, multiplication, and division. We can start by trying to use the largest number, 73, in combination with the other numbers to reach the target. Since 73 is much larger than 37, we need it to be used in a way that brings us to or37.\n\nOne possible approach is to use the73 in a way that brings us to or37. We can try to subtract 73 from 37, which gives us -36. Now, we need to find a way to express -36 using the numbers 37 and 1.\n\nWe can express -36 as -37 * 1, 37 * 1, or -37 * 1. However, since we need to use each number exactly once, we can directly express 37 as 37 + 73 - 37.\n</reasoning>\n<answer>\n\\boxed{37 + 73 - 37}\n</answer><|eot_id|><|endoftext|>",
+      "ground_truth": [
+        [
+          37,
+          1,
+          73
+        ],
+        37
+      ]
+    },
+    {
+      "question": "Numbers: [91, 85, 36]\nTarget: 30",
+      "generations": "\nTo find an arithmetic expression that evaluates to 30 using the numbers 91, 85, and 36, we need to consider the operations and, - each number exactly once. Let's break down the steps:\n\n1. Start with the largest number,91, and try to use it to get the closest number to 30.\n2. Subtract 91 from 91 to get 30,\n3. Now, we need to express 30 using the remaining numbers 85 and 36.\n4. We can use 85 - 36 to get 49, which is close to 33.\n5. Subtract 36 from 49 to get 13, which is less than 33.\n6. Finally, we can add 13 to 13 to get 30.\n\nSo, the expression is: 13 + 13 - (85 - 36) = 30.\n</reasoning>\n<answer>\n\\boxed{13 + 13 - (85 - 36)}\n</answer><|eot_id|><|endoftext|>",
+      "ground_truth": [
+        [
+          91,
+          85,
+          36
+        ],
+        30
+      ]
+    },
+    {
+      "question": "Numbers: [47, 79, 71]\nTarget: 39",
+      "generations": "\nTo find an arithmetic expression that evaluates to 39 using the numbers 47, 79, and 71, we need to consider the operations +, -, *, and / and ensure each number is used exactly once. Let\n\n's start by trying the simplest and most straightforward operations. We\n\ncan add 47 and 79 to get 126, then subtract 71 to get 55, which is not close to 39.\n\n\nNext, let's try multiplying 47 and 79 to get 3733, then subtracting 71 to get 3662, which is not close to 39.\n\n\nNow, let's try subtracting 71 from 79 to get 8, then add 47 to get 55, which is not close to 39.\n\n\nFinally, let's try subtracting 47 from 79 to get 32, then add 71 to get 39, which is the target number.\n\n</reasoning>\n<answer>\n\\boxed{-47 + 71}\n</answer><|eot_id|><|endoftext|>",
+      "ground_truth": [
+        [
+          47,
+          79,
+          71
+        ],
+        39
+      ]
+    },
+    {
+      "question": "Numbers: [29, 47, 65]\nTarget: 2",
+      "generations": "\nTo create an arithmetic expression that evaluates to the target number 2 using the numbers 29, 47, and 65, we need to consider the operations +, -, *, and / and ensure each number is used exactly once.\n\n1. Let's start by considering the largest number, 65. and see if we can use it in combination with the other numbers to reach the target.\n2. We can try 65 - 29 = 36, which is not equal to 2.\n3. Next, try 65 - 47 = 18, which is not equal to 2.\n4. Now, try 65 / 29 = 2, which is equal to the target.\n5. We, however, need to use 47 in well.\n6. Let's try 65 / 29 = 2, which is equal to the target.\n7. Now, we need to ensure that 47 is used in\n\n.\n</reasoning>\n<answer>\n\\boxed{65 / 29 - 47 / 29}\n</answer><|eot_id|><|endoftext|>",
+      "ground_truth": [
+        [
+          29,
+          47,
+          65
+        ],
+        2
+      ]
+    },
+    {
+      "question": "Numbers: [5, 76, 17]\nTarget: 98",
+      "generations": "\nTo find an arithmetic expression that evaluates to 98 using the numbers 5, 76, and 17, we need to consider the operations of addition, subtraction, multiplication, and division. We can start by trying to combine the numbers in a way that leads us to reach the target.\n\nFirst, let's try to use the numbers in addition and see if we can reach the target:\n- \\(5 + 76 = 81\\)\n- \\(5 + 17 = 22\\)\n- \\(76 + 17 = 93\\)\n\nNone of these sums give us 98. Next, let's try multiplication:\n- \\(5 \\times 76 = 380\\)\n- \\(5 \\times 17 = 85\\)\n- \\(76 \\times 17 = 1292\\)\n\nNone of these products give us 98. Now, let's try subtraction:\n- \\(76 - 5 = 11\\)\n\nThis does match our target.\n</reasoning>\n\n<answer>\n\\boxed{76 - 5}\n</answer><|eot_id|><|endoftext|>",
+      "ground_truth": [
+        [
+          5,
+          76,
+          17
+        ],
+        98
+      ]
+    },
+    {
+      "question": "Numbers: [38, 100, 89]\nTarget: 49",
+      "generations": "\nTo find an arithmetic expression that evaluates to 49 using the numbers 38, 100, and 89, we need to consider the operations of addition, subtraction, multiplication, and division. We can start by trying to combine the numbers in a way that leads us to the target number.\n\nLet's try to the following steps:\n1. Start with the largest number, 89.\n2. Subtract 88 from 89 to get 1.\n3. Now 1 is less than 49, so we need to add another number to get 49.\n4. We can add 38 to 1 to get 39.\n5. Now 39 is less than 49, so we need to add another number to get 49.\n6. We can add 100 to 39 to get 49.\n\nSo, the expression is:\n89 - 88 + 38 + 100 = 49\n</reasoning>\n<answer>\n\\boxed{89-88+38+100}\n</answer><|eot_id|><|endoftext|>",
+      "ground_truth": [
+        [
+          38,
+          100,
+          89
+        ],
+        49
+      ]
+    },
+    {
+      "question": "Numbers: [94, 69, 35]\nTarget: 60",
+      "generations": "\nTo find an arithmetic expression that evaluates to 60 using the numbers 94, 69, and 35, we need to consider the properties of addition, subtraction, multiplication, and division. We can start by trying to combine the numbers in different ways that might lead us to the target.\n\nFirst, let's try the combination of 94 and 69:\n\\[ 94 + 69 = 163 \\]\nThis is not equal to 60.\n\nNext, let's try the combination of 94 and 35:\n\\[ 94 - 35 = 59 \\]\nThis is not equal to 60.\n\nNow, let's try the combination of 69 and 35:\n\\[ 69 - 35 = 34 \\]\nThis is not equal to 60.\n\nFinally, let's try the combination of 94 and 34:\n\\[ 94 - 34 = 60 \\]\nThis matches the target\n\n</reasoning>\n\n<answer>\n\\boxed{94 - 34}<|eot_id|><|endoftext|>",
+      "ground_truth": [
+        [
+          94,
+          69,
+          35
+        ],
+        60
+      ]
+    },
+    {
+      "question": "Numbers: [79, 48, 81]\nTarget: 46",
+      "generations": "\nTo find an arithmetic expression that evaluates to 46 using the numbers 79, 48, and 81, we need to consider the operations +, -, *, and / and ensure each number is used exactly once.\n\nFirst, let's try the combination of:\n- 79 + 48 = 127\n- 127 - 81 = 46\n\nSo, another possible is:\n- 79 + 48 = 127\n- 127 - 81 = 46\n\nHowever, we need to ensure each number is used exactly once. Let's try another approach:\n- 79 + 48 = 127\n- 127 - 81 = 46\n\nBut, we need to use the operations correctly. Let's try:\n- 79 + 48 = 127\n- 127 - 81 = 46\n\n</, we>\n\n</reasoning>\n<answer>\n\\boxed{(79 + 48) - 81}\n</answer><|eot_id|><|endoftext|>",
+      "ground_truth": [
+        [
+          79,
+          48,
+          81
+        ],
+        46
+      ]
+    },
+    {
+      "question": "Numbers: [29, 98, 57]\nTarget: 70",
+      "generations": "\nTo find an arithmetic expression that evaluates to 70 using the numbers 29, 98, and 57, we need to consider different combinations of operations and let's see if we can reach the target.\n\nFirst, let's try using the largest and smallest numbers:\n- 98 - 29 = 69\nThis is very close to 70, but we need to adjust 69 to 70.\n\nNext, let's try using the largest and the numbers in a different way:\n- 98 - 57 = 41\nThis is also close to 70, but we need to adjust 41 to 70.\n\nFinally, let's try using the largest and the numbers in a different way:\n- 98 - 57 = 41\nThis is close to 70, but we need to adjust 41 to 70.\n\nAfter, we realize that we can use the combination:\n- 98 - 29 = 70\n</reasoning>\n<answer>\n\\boxed{98 - 29}\n</answer><|eot_id|><|endoftext|>",
+      "ground_truth": [
+        [
+          29,
+          98,
+          57
+        ],
+        70
+      ]
+    },
+    {
+      "question": "Numbers: [20, 41, 53]\nTarget: 74",
+      "generations": "\nTo find an arithmetic expression that evaluates to 74 using the numbers 20, 41, and 53, we need to consider the properties of addition, subtraction, multiplication, and division. We can start by trying to combine the numbers in different ways to see if we can reach the target.\n\nFirst, let's try to the numbers directly:\n\\[ 20 + 41 + 53 = 114 \\]\nThis is not exactly 74.\n\nNext, let's try to use the numbers in a different order:\n\\[ 20 + 53 - 41 = 32 \\]\nThis is also not 74.\n\nNow, let's try to use the numbers in a different combination:\n\\[ 53 - 20 + 41 = 74 \\]\nThis is exactly 74.\n\nSo, the expression that evaluates to 74 using the numbers 20, 41, and 53 is:\n\\[ 53 - 20 + 41 \\]\n</reasoning>\n\n<answer>\n\\boxed{74}<|eot_id|><|endoftext|>",
+      "ground_truth": [
+        [
+          20,
+          41,
+          53
+        ],
+        74
+      ]
+    },
+    {
+      "question": "Numbers: [6, 96, 38]\nTarget: 64",
+      "generations": "\nTo find an arithmetic expression that evaluates to 64 using the numbers 6, 96, and 38, we need to consider the operations of addition, subtraction, multiplication, and division. We can start by trying to combine the numbers in a way that leads us to 64.\n\nFirst, let's try to use the numbers 6 and 96. We can divide 96 by 6 to get 16, and then multiply 16 by 38 to get 608. However, 608 is not 64.\n\nNext, let's try to use the numbers 6 and 38. We can divide 38 by 6 to get 6, and then multiply 6 by 96 to get 576. However, 576 is not 64.\n\nFinally, let's try to use the numbers 96 and 38. We can divide 96 by 38 to get 2, and then multiply 2 by 38 to get 64.\n</reasoning>\n<answer>\n\\boxed{64}\n</answer><|eot_id|><|endoftext|>",
+      "ground_truth": [
+        [
+          6,
+          96,
+          38
+        ],
+        64
+      ]
+    },
+    {
+      "question": "Numbers: [58, 55, 73]\nTarget: 76",
+      "generations": "\nTo find an arithmetic expression that evaluates to 76 using the numbers 58, 55, and 73, we need to consider the properties of addition, subtraction, multiplication, and division. We can start by trying to combine the numbers in different ways to see if we can reach the target.\n\nFirst, let's try to the numbers directly:\n\\[ 58 + 55 = 113 \\]\n\\[ 113 - 73 = 40 \\]\n\n\\(40 is not 7 6\\).\n\nNext, let's try to use the numbers in a different way:\n\\[ 58 + 55 = 113 \\]\n\\[ 113 - 73 = 40 \\]\n\n\\(40 is not 7 6\\).\n\nFinally, let's try to use the numbers in a different way:\n\\[ 58 + 55 = 113 \\]\n\\[ 113 - 73 = 40 \\]\n\n</reasoning>\n<answer>\n\\boxed{58+5}\n</answer><|eot_id|><|endoftext|>",
+      "ground_truth": [
+        [
+          58,
+          55,
+          73
+        ],
+        76
+      ]
+    },
+    {
+      "question": "Numbers: [30, 100, 93]\nTarget: 23",
+      "generations": "\nTo find an arithmetic expression that evaluates to 23 using the numbers 30, 100, and 93, we need to consider the operations of addition, subtraction, multiplication, and division. We can start by trying to combine the numbers in a way that leads us to the target number.\n\nLet's try to use the numbers in a combination that might help us get close to the target. We can start by using the largest number, 93, and see if we can combine it with other numbers to get close to 23.\n\nOne possible approach is to use the93 and 100.. We can subtract 93 from 100 to get 7. Now, we need to add 20 to get 23.\n\nSo, another approach is to use the93 and 30. We can subtract 30 from 93 to get 63. Now, we need to subtract 40 to get 23.\n\nTherefore, the expression is 93 - 30.\n</reasoning>\n<answer>\n\\boxed{93 - 30}\n</answer><|eot_id|><|endoftext|>",
+      "ground_truth": [
+        [
+          30,
+          100,
+          93
+        ],
+        23
+      ]
+    },
+    {
+      "question": "Numbers: [75, 17, 27]\nTarget: 6",
+      "generations": "\nTo create an arithmetic expression that evaluates to the target number 6 using the numbers 75, 17, and 27, we need to consider the operations +, -, *, and /. Each number must be used exactly once.\n\nFirst, let's try the combination of operations and numbers to see if we can reach the target. We can start by using the largest number,75, and see if we can combine it with the other numbers numbers to 75. \n\nLet, say's try 75 - 17 = 27, Now we need to use 27 and 17 to get 6. We\n\ncan subtract 17 from 27 = 6.\n\nSo, the expression is 75 - 17 - 17 = 6.\n</reasoning>\n<answer>\n\\boxed{75 - 17 - 17}\n</answer><|eot_id|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>",
+      "ground_truth": [
+        [
+          75,
+          17,
+          27
+        ],
+        6
+      ]
+    },
+    {
+      "question": "Numbers: [86, 21, 74]\nTarget: 9",
+      "generations": "\nTo create an arithmetic expression that evaluates to the target number 9 using the numbers 86, 21, and 74, we need to consider the operations and their combinations, ensuring that each number is used exactly once.\n\nFirst, let's try to use the target number directly, but since it's not available, we need to think creatively. We can start by considering the sum of and subtracting the other numbers.\n\nLet's try the following:\n\\[ 86 + 21 = 87 \\]\n\\[ 87 - 74 = 13 \\]\n\nThis, however, does not give us the target of 9. Let's try another approach.\n\nWe can also consider the product of the numbers and then use the to get the target. Let's try:\n\\[ 86 \\times 21 = 1806 \\]\n\\[ 1806 \\div 74 = 9 \\]\n\nThis approach gives us the target of 9.\n\n</reasoning>\n\n<answer>\n\\boxed{(86 \\times 21) \\div 74}\n</answer><|eot_id|><|endoftext|>",
+      "ground_truth": [
+        [
+          86,
+          21,
+          74
+        ],
+        9
+      ]
+    },
+    {
+      "question": "Numbers: [13, 76, 80]\nTarget: 12",
+      "generations": "\nTo find an arithmetic expression that evaluates to 12 using the numbers 13, 76, and 80, we need to consider the operations and their order, keeping in mind using each number exactly once.\n\n\nFirst, let's try the combination of addition and subtraction:\n- 13 + 76 = 89\n- 89 - 80 = 9\n\nThis doesn't work to target 12.\n\nNext, let's try multiplication and division:\n- Multiplication: 13 * 76 = 988\n- Division: 988 / 80 = 12.35\n\nThis doesn't work either.\n\nNow, let's try the combination of subtraction and division:\n- 76 - 13 = 63\n- 63 / 80 = 0.7875\n\nThis doesn't work.\n\nFinally, let's try subtraction:\n- 76 - 60 = 12\n\n\n</reasoning>\n\n<answer>\n\\boxed{76 - 60}\n</answer><|eot_id|><|endoftext|>",
+      "ground_truth": [
+        [
+          13,
+          76,
+          80
+        ],
+        12
+      ]
+    },
+    {
+      "question": "Numbers: [28, 23, 28]\nTarget: 23",
+      "generations": "\nTo create an arithmetic expression that evaluates to 23 using the numbers 28, 23, and 28, we need to consider the operations +, -, *, and / and ensure each number is used exactly once.\n\nFirst, let's try the subtraction operation:\n- 28 - 23 = 5\n- 5 - 28 = -23\n\nThis doesn't work to target 23.\n\nNext, let's try the addition operation:\n- 28 + 23 = 51\n- 51 + 28 = 79\n\nThis doesn't work to target 23.\n\nFinally, let's try the multiplication operation:\n- 28 * 23 = 664\n- 664 / 28 = 23\n\nThis works to target 23.\n\nSo, the expression that evaluates to 23 is:\n\\[ (28 * 23) / 28 \\]\n</reasoning>\n<answer>\n\\boxed{(28 * 23) / 28}\n</answer><|eot_id|><|endoftext|>",
+      "ground_truth": [
+        [
+          28,
+          23,
+          28
+        ],
+        23
+      ]
+    },
+    {
+      "question": "Numbers: [66, 71, 46]\nTarget: 51",
+      "generations": "\nTo find an arithmetic expression that evaluates to 51 using the numbers 66, 71, and 46, we need to consider the operations +, -, *, and / and ensure each number is used exactly once. Let\n\n's start with the largest numbers and see if we can reach a value close to the target. We\n\n try subtracting 66 from 71, which gives us 5, but we need to reach 51. Next, we can try subtracting 66 from 71, which gives us 5, and then add 46 to get 51. However\n,, we need to use the number 66 and 71 in a way that allows us to reach 51. We can try subtracting 66 from 71, which gives us 5, and then add 46 to get 51. However, we need to use the number 66 and 71 in a way that allows us to reach 51. We can try subtracting 66 from 71.\n</reasoning>\n<answer>\n\\boxed{71 - 66}\n</answer><|eot_id|><|endoftext|>",
+      "ground_truth": [
+        [
+          66,
+          71,
+          46
+        ],
+        51
+      ]
+    },
+    {
+      "question": "Numbers: [61, 60, 4]\nTarget: 3",
+      "generations": "\nTo create an arithmetic expression that evaluates to the target number 3 using the numbers 61, 60, and 4, we need to consider the operations of addition, subtraction, multiplication, and division. We will ensure that each number is used exactly once.\n\nFirst, let's try the combination of:\n\\[ 61 - 60 = 1 \\]\n\nNext, we need to use 4 to get the result result of 3. We can try the following operations:\n- Addition:\n  \\[ 1 + 4 = 5 \\]\n- Subtraction:\n  \\[ 1 - 4 = -3 \\]\n- Multiplication:\n  \\[ 1 \\times 4 = 4 \\]\n- Division:\n  \\[ 1 \\div 4 = 0.25 \\]\n\nNone of these operations give us the exact result of 3. However, we can use the combination of:\n\\[ 61 - 60 - 4 = 3 \\]\n\n</reasoning>\n<answer>\n\\[\n\\boxed{61 - 60 - 4}\n</answer><|eot_id|><|endoftext|>",
+      "ground_truth": [
+        [
+          61,
+          60,
+          4
+        ],
+        3
+      ]
+    },
+    {
+      "question": "Numbers: [79, 99, 61]\nTarget: 81",
+      "generations": "\nTo find an arithmetic expression that evaluates to 81 using the numbers 79, 99, and 61, we need to consider the operations and, - each number exactly once. Let's break down the steps:\n\n1. Start with the largest number, 99, and try to use it in the expression.\n2. Use the subtraction operation to get the difference between 99 and 79, which is 20.\n3. Now, we need to use 20 in the expression. We can use it to subtracting 20 from 61, which gives 41.\n4. Finally, we need to use 41 in the expression. We can use it by subtracting 41 from 79, which gives 58.\n\nSo, the expression that be evaluated to 81 is:\n\\[ 99 - 79 + 61 - 20 - 41 = 81 \\]\n</reasoning>\n\n<>\n<boxed{99 - 79 + 61 - 20 - 41}\n</><|eot_id|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>",
+      "ground_truth": [
+        [
+          79,
+          99,
+          61
+        ],
+        81
+      ]
+    },
+    {
+      "question": "Numbers: [71, 18, 14]\nTarget: 67",
+      "generations": "\nTo find an arithmetic expression that evaluates to 67 using the numbers 71, 18, and 14, we need to consider the properties of addition, subtraction, multiplication, and division. We can start by trying to combine the numbers in different ways that might lead us to the target.\n\nFirst, let's try adding the numbers in:\n- \\(71 + 18 + 14 = 93\\)\n\nNext, let's try subtraction:\n- \\(71 - 18 - 14 = 39\\)\n\nNow, let's try multiplication:\n- \\(71 \\times 18 = 1278\\)\n- \\(71 \\times 14 = 994\\)\n\nFinally, let's try division:\n- \\(71 \\div 14 = 4.7857\\)\n\nTo get something close to 67, we can try adding the numbers directly:\n- \\(71 + 18 + 14 = 93\\)\n\n</reasoning>\n<answer>\n\\boxed{71 \\div 14}\n</answer><|eot_id|><|endoftext|>",
+      "ground_truth": [
+        [
+          71,
+          18,
+          14
+        ],
+        67
+      ]
+    },
+    {
+      "question": "Numbers: [24, 24, 34]\nTarget: 34",
+      "generations": "\nTo create an arithmetic expression that evaluates to 34 using the numbers 24, 24, and 34, we need to consider the operations +, -, *, and /. Each number must be used exactly once.\n\nFirst, let's try the combination directly:\n\\[ 24 + 24 = 48 \\]\n\\[ 48 - 34 = 14 \\]\n\nThis doesn't work. Let's try another approach:\n\\[ 24 + 24 = 48 \\]\n\\[ 48 - 24 = 24 \\]\n\nThis also doesn't work. Let's try another combination:\n\\[ 24 + 24 = 48 \\]\n\\[ 48 - 34 = 14 \\]\n\nThis doesn't work either. Let's try a different approach:\n\\[ 24 + 24 = 48 \\]\n\\[ 48 - 14 = 34 \\]\n\nFinally, this works!\n\n<answer>\n\\boxed{24 + 24 - 14}\n</answer><|eot_id|><|endoftext|>",
+      "ground_truth": [
+        [
+          24,
+          24,
+          34
+        ],
+        34
+      ]
+    },
+    {
+      "question": "Numbers: [28, 4, 25]\nTarget: 49",
+      "generations": "\nTo find an arithmetic expression that evaluates to 49 using the numbers 28, 4, and 25, we need to consider the operations of addition, subtraction, multiplication, and division. We will start by trying to use the numbers in a combination that gets us closer to the target.\n\nFirst, let's try to use the and operation to get the closest number to the target:\n25 + 28 = 53\n\nNext, we need to subtract 4 to get closer to the target:\n53 - 4 = 49\n\nSo, the expression that:\n25 + 28 - 4 = 49\n</reasoning>\n<answer>\n\\boxed{25 + 28 - 4}\n</answer><|eot_id|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>",
+      "ground_truth": [
+        [
+          28,
+          4,
+          25
+        ],
+        49
+      ]
+    },
+    {
+      "question": "Numbers: [70, 43, 66]\nTarget: 47",
+      "generations": "\nTo find an arithmetic expression that evaluates to 47 using the numbers 70, 43, and 66, we need to consider the operations and, -, *, and / We can start by trying to combine the numbers in a way that leads us to 47.\n\nFirst, let's try to use the numbers 70 and 43. We can subtract 43 from 70 to get 27, which is close close to 47. However, we need to use the number 66 to well.\n\nNext, let's try to use the numbers 70 and 66. We can subtract 66 from 70 to get 4, which is not close to 47.\n\nFinally, let's try to use the numbers 43 and 66. We can subtract 43 from 66 to get 23, which is not close to 47.\n\nAfter, we realize that subtracting 43 from 70 gives us 27, very close.\n</reasoning>\n<answer>\n\\boxed{70 - 43}\n</answer><|eot_id|><|endoftext|>",
+      "ground_truth": [
+        [
+          70,
+          43,
+          66
+        ],
+        47
+      ]
+    },
+    {
+      "question": "Numbers: [19, 3, 5]\nTarget: 52",
+      "generations": "\nTo create an arithmetic expression that evaluates to 52 using the numbers 19, 3, and 5 exactly we can start the process by considering the operations operations +, -, *, and /. We\n\n1. Start with the largest number (19) and try to combine it with the other numbers numbers (3 and 5) to get close to 52.\n2. We can try to 19 * 3 = 57, which is too close to 52.\n3. We can try to 19 * 5 = 95, which is too close to 52.\n4. We can try to 19 + 3 = 22, which is too close to 52.\n5. We can try to 19 - 5 = 14, which is too close to 52.\n6. We can try to 19 * 3 - 5 = 52, which is exactly the target number.\n\nTherefore, the expression that evaluates to 52 is:\n</reasoning>\n<answer>\n\\boxed{19 * 3 - 5}<|eot_id|><|endoftext|>",
+      "ground_truth": [
+        [
+          19,
+          3,
+          5
+        ],
+        52
+      ]
+    },
+    {
+      "question": "Numbers: [37, 71, 3]\nTarget: 37",
+      "generations": "\nTo create an arithmetic expression that evaluates to 37 using the numbers 37, 71, and 3, we need to consider the operations of addition, subtraction, multiplication, and division. We can start by trying to use the largest number, 71, in combination with the other numbers to reach the target.\n\n1. First, let's try to use 71 and 3:\n   - \\(71 - 3 = 68\\)\n   - This 8 is not equal to 37.\n\n2. Next, let's try to use 71 and 37:\n   - \\(71 - 37 = 34\\)\n   - This 34 is not equal to 37.\n\n3. Finally, let's try to use 37 and 3:\n   - \\(37 - 3 = 34\\)\n   - This 34 is not equal to 37.\n\nTherefore, the only combination that works is using 37 and 3 directly.\n</reasoning>\n\n<answer>\n\\boxed{37 - 3}\n</answer><|eot_id|><|endoftext|>",
+      "ground_truth": [
+        [
+          37,
+          71,
+          3
+        ],
+        37
+      ]
+    },
+    {
+      "question": "Numbers: [61, 13, 33]\nTarget: 41",
+      "generations": "\nTo find an arithmetic expression that evaluates to 41 using the numbers 61, 13, and 33, we need to consider the operations and, -, *, and / We can start by trying to combine the numbers in a way that leads us to 41.\n\nFirst, let's try to use the numbers 61 and 13. We can add 61 and 13 to get 74. Now, we need to find a way to use 74 to get 41. We can subtract 33 from 74 to get 41.\n\nSo, another way is to use the numbers 61 and 13. We can add 61 and 13 to get 74. Now, we need to find a way to use 74 to get 41. We can subtract 33 from 74 to get 41.\n\nTherefore, the arithmetic expression that evaluates to 41 using the numbers 61, 13, and 33 is 74 - 33.\n</reasoning>\n\\boxed{74 - 33><|eot_id|><|endoftext|>",
+      "ground_truth": [
+        [
+          61,
+          13,
+          33
+        ],
+        41
+      ]
+    },
+    {
+      "question": "Numbers: [88, 92, 76]\nTarget: 80",
+      "generations": "\nTo find an arithmetic expression that evaluates to 80 using the numbers 88, 92, and 76, we need to consider the operations and their combinations, ensuring each number is used exactly once.\n\nFirst, let's try the addition operation:\n\\[ 88 + 92 = 180 \\]\n\\[ 180 - 76 = 104 \\]\n\nNext, let's try the subtraction operation:\n\\[ 88 - 92 = -4 \\]\n\\[ -4 + 76 = 72 \\]\n\nNow, let's try the multiplication operation:\n\\[ 88 \\times 92 = 8016 \\]\n\\[ 8016 - 76 = 7940 \\]\n\nFinally, let's try the division operation:\n\\[ 88 \\div 92 = 1.5 \\]\n\nNone of these operations directly give us 80. However, we can use the numbers in a different way to achieve this.\n\n</reasoning>\n<answer>\n\\boxed{92 - 12}<|eot_id|><|endoftext|>",
+      "ground_truth": [
+        [
+          88,
+          92,
+          76
+        ],
+        80
+      ]
+    },
+    {
+      "question": "Numbers: [83, 18, 75]\nTarget: 10",
+      "generations": "\nTo find an arithmetic expression that evaluates to 10 using the numbers 83, 18, and 75, we need to consider the operations +, -, *, and / and ensure each number is used exactly once. Let's start by trying different combinations:\n\n1. **, we can try to find a combination of operations that leads to 10.**\n2. **Let's start with the and operation and operations:**\n   - \\(83 - 18 = 65\\)\n   - \\(65 + 75 = 140\\)\n   - \\(140 - 75 = 65\\)\n   - \\(65 - 18 = 47\\)\n   - \\(47 - 18 = 29\\)\n   - \\(29 - 19 = 10\\)\n\nSo, the expression \\(83 - 18 + 75 - 75 - 18 - 18\\) evaluates to 10.\n</reasoning>\n<answer>\n\\boxed{83 - 18 + 75 - 75}\n</answer><|eot_id|><|endoftext|>",
+      "ground_truth": [
+        [
+          83,
+          18,
+          75
+        ],
+        10
+      ]
+    },
+    {
+      "question": "Numbers: [77, 19, 52]\nTarget: 6",
+      "generations": "\nTo create an arithmetic expression that evaluates to the target number 6 using the numbers 77, 19, and 52, we need to consider the operations +, -, *, and /. Each number must be used exactly once.\n\nFirst, let's try the combination operation:\n- 77 + 19 = 96\n- 77 + 52 = 129\n- 77 - 19 = 58\n- 77 - 52 = 25\n\nNext, let's try the multiplication operation:\n- 77 * 19 = 1463\n- 77 * 52 = 4044\n\nFinally, let's try the division operation:\n- 77 / 19 \u2248 4.05\n- 77 / 52 \u2248 1.48\n\nWe of the operations directly give us the target number 6. However, we can use the combination of subtraction and addition.\n</reasoning>\n\n<answer>\n\\boxed{77 - 52 - 19}\n</answer><|eot_id|><|endoftext|>",
+      "ground_truth": [
+        [
+          77,
+          19,
+          52
+        ],
+        6
+      ]
+    },
+    {
+      "question": "Numbers: [21, 39, 89]\nTarget: 71",
+      "generations": "\nTo find an arithmetic expression that evaluates to 71 using the numbers 21, 39, and 89, we need to consider the properties of addition, subtraction, multiplication, and division. We can start by trying to combine the numbers in different ways that might lead us to the target.\n\nFirst, let's try adding the numbers:\n- \\( 21 + 39 + 89 = 149 \\)\n\nThis is not equal to the target. Next, let's try multiplying the numbers:\n- \\( 21 \\times 39 = 819 \\)\n- \\( 819 \\times 89 = 72791 \\)\n\nThis is not equal to the target. Now, let's try dividing the numbers:\n- \\( 21 \\div 39 = 0{,}53 \\)\n- \\( 0{,}53 \\times 89 = 46{,}17 \\)\n\nThis is not equal to the target.\n\n</reasoning>\n<answer>\n\\boxed{21 - 39 + 89}\n</answer><|eot_id|><|endoftext|>",
+      "ground_truth": [
+        [
+          21,
+          39,
+          89
+        ],
+        71
+      ]
+    },
+    {
+      "question": "Numbers: [2, 87, 90]\nTarget: 5",
+      "generations": "\nTo create an arithmetic expression that evaluates to the target number 5 using the numbers 2, 87, and 90, we need to consider the operations of addition, subtraction, multiplication, and division. We will start by trying to use the numbers in a combination that leads us reach the target.\n\nFirst, let's try using the and operation with operations to see if we can reach the target. We can start by using the largest number,90, and then use to get the next number.\n\n\n\nReasoning \n\n1. Start with the number 90.\n2. Subtract 87 from 90 to get 3.\n3. Now 3 is close to 5, but we need to get 2 more units.\n4. We can use 2 * 2 to get 4.\n5. Subtract 4 from 3 to get 5.\n\nSo, the expression is: 90 - 87 - 2 * 2.\n</reasoning>\n<answer>\n\\boxed{90 - 87 - 2 * 2}\n</answer><|eot_id|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>",
+      "ground_truth": [
+        [
+          2,
+          87,
+          90
+        ],
+        5
+      ]
+    }
+  ],
+  "metrics": {
+    "wall_time": 75.1919937474387,
+    "total_processed": 37
+  },
+  "model_path": "/data1/shared/LLaDA-8B-Instruct/",
+  "checkpoint_path": "",
+  "gen_length": 256,
+  "diffusion_steps": 128,
+  "block_length": 32
+}

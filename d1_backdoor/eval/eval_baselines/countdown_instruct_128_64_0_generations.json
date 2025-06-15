@@ -1,0 +1,457 @@
+{
+  "generations": [
+    {
+      "question": "Numbers: [49, 55, 53]\nTarget: 51",
+      "generations": "\nTo achieve the target of 51 using the numbers 49, 55, and 53, we need to find a combination to use the operations +, -, *, and /. Let's start by considering the largest number, 55, and see if we can use it to get 51. We can subtract 53 from 55 to get 51. Therefore, the expression is 55 - 53 = 51.\n</reasoning>\n<answer>\n\\boxed{55 - 53}\n</answer><|eot_id|><|endoftext|>",
+      "ground_truth": [
+        [
+          49,
+          55,
+          53
+        ],
+        51
+      ]
+    },
+    {
+      "question": "Numbers: [33, 21, 52]\nTarget: 2",
+      "generations": "\nTo find the expression that evaluates to 2 using the numbers 33, 21, and 52, we need to consider the operations and, -, *, and / We can start by trying to use the numbers in a way that allows us to reach the target..\n\n</,<|eot_id|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>",
+      "ground_truth": [
+        [
+          33,
+          21,
+          52
+        ],
+        2
+      ]
+    },
+    {
+      "question": "Numbers: [60, 85, 87]\nTarget: 62",
+      "generations": "\nTo reach the target number 62 using the numbers 60, 85, and 87, we need to find a combination of operations operations that, when applied to these numbers, result in 62. We can start by considering the numbers and and trying to find a combination that fits the target.\n</reasoning>\n<answer>\n\\boxed{87 - 85 + 60}\n</answer><|eot_id|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>",
+      "ground_truth": [
+        [
+          60,
+          85,
+          87
+        ],
+        62
+      ]
+    },
+    {
+      "question": "Numbers: [92, 1, 1]\nTarget: 46",
+      "generations": "\nTo achieve the target of 46 using the numbers 92, 1, and 1 exactly we need to use the operations operations +, -, *, and / in a way that each number is used exactly once. \n\n<answer>\n\\boxed{92 / 1 - 1}\n</answer><|eot_id|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>",
+      "ground_truth": [
+        [
+          92,
+          1,
+          1
+        ],
+        46
+      ]
+    },
+    {
+      "question": "Numbers: [9, 89, 69]\nTarget: 29",
+      "generations": "\nTo achieve an expression of 29 using the numbers 9, 89, and 69, we need to consider the operations and, subtraction, multiplication, and division. We can start by combining the largest and smallest numbers to see if we can get 29. The largest number is 89 and the smallest number is 9. Subtracting 69 from 98 gives us 29. Therefore, the expression is 89 - 69.\n</reasoning> <answer>\n\\boxed{89 - 69}\n</answer><|eot_id|><|endoftext|>",
+      "ground_truth": [
+        [
+          9,
+          89,
+          69
+        ],
+        29
+      ]
+    },
+    {
+      "question": "Numbers: [16, 87, 86]\nTarget: 17",
+      "generations": "\nTo achieve the target of 17 using the numbers 16, 87, and 86, we need to find a combination to use the operations +, -, *, and /. Each number must be used exactly once. Let's start by considering the largest number and see if we can use it in combination with the other numbers to reach the target. We can try subtracting 87 from 86, then subtracting 16 to the result.\n</reasoning>\n<answer>\n\\boxed{86 - 87 - 16}\n</answer><|eot_id|><|endoftext|>",
+      "ground_truth": [
+        [
+          16,
+          87,
+          86
+        ],
+        17
+      ]
+    },
+    {
+      "question": "Numbers: [95, 73, 7]\nTarget: 29",
+      "generations": "\nTo achieve the target of 29 using the numbers 95, 73, and 7, we need to find a combination of operations that, when applied to these numbers, result in 29. We can start by considering the basic operations and their effects. One approach is to use the numbers and to see if we can reach the target by combining them in a way. We can try different combinations of operations to see if we can get 29.\n</reasoning>\n<answer>\n\\boxed{(95 - 73) / 7}\n</answer><|eot_id|><|endoftext|>",
+      "ground_truth": [
+        [
+          95,
+          73,
+          7
+        ],
+        29
+      ]
+    },
+    {
+      "question": "Numbers: [34, 30, 100]\nTarget: 96",
+      "generations": "\nTo achieve the target of 96 using the numbers 34, 30, and 100, we need to find a combination of operations that yield -4. We can start by subtracting 34 from 100 to get 66. Then, we can subtract 30 from 66 to get 36. Finally, we can subtract 32 from 36 to get 4.\n</reasoning>\n<answer>\n\\boxed{100 - 34 - 30 - 32}\n</answer><|eot_id|><|endoftext|>",
+      "ground_truth": [
+        [
+          34,
+          30,
+          100
+        ],
+        96
+      ]
+    },
+    {
+      "question": "Numbers: [13, 49, 80]\nTarget: 44",
+      "generations": "\nTo achieve the target of 44 using the numbers 13, 49, and 80, we need to find a combination to use the operations +, -, *, and /. Let's start by considering the largest number, 80, and see if we can use it to get the closest. We can divide 80 by 80 to get 1, and then subtract 13 from 49 to get 44.\n</reasoning>\n<answer>\n\\boxed{80 / 1 - 13}\n</answer><|eot_id|><|endoftext|>",
+      "ground_truth": [
+        [
+          13,
+          49,
+          80
+        ],
+        44
+      ]
+    },
+    {
+      "question": "Numbers: [22, 52, 37]\nTarget: 7",
+      "generations": "\nTo create an arithmetic expression that evaluates to 7 using the numbers 22, 52, and 37, we need to consider the operations of addition, subtraction, multiplication, and division. We can start by trying to use the numbers in a way that allows us to reach the target. \n\n</reasoning>\n<answer>\n\\boxed{37 - 52 + 22}\n</answer><|eot_id|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>",
+      "ground_truth": [
+        [
+          22,
+          52,
+          37
+        ],
+        7
+      ]
+    },
+    {
+      "question": "Numbers: [10, 91, 11]\nTarget: 19",
+      "generations": "\nTo achieve the target of 19 using the numbers 10, 91, and 11, we need to find a combination to use the operations +, -, *, and /. Let's start by considering the largest number, 91, and see if we can use it to get the target. We know that 91 - 72 = 19, however, we need use the numbers 10 and 11.\n</reasoning>\n<answer>\n\\boxed{91 - 11 - 11}\n</answer><|eot_id|><|endoftext|>",
+      "ground_truth": [
+        [
+          10,
+          91,
+          11
+        ],
+        19
+      ]
+    },
+    {
+      "question": "Numbers: [66, 73, 60]\nTarget: 67",
+      "generations": "\nTo get the target number 67 using the numbers 66, 73, and 60, we need to find the correct combination of operations. Let's start by considering the largest number, 73, and see if we can use it to get the target. We can that 73 - 66 = 67. However, we need to use 60 to well. We can use 60 + 66 = 67.\n</reasoning>\n<answer>\n\\boxed{60 + 67}\n</answer><|eot_id|><|endoftext|>",
+      "ground_truth": [
+        [
+          66,
+          73,
+          60
+        ],
+        67
+      ]
+    },
+    {
+      "question": "Numbers: [48, 54, 19]\nTarget: 25",
+      "generations": "\nTo find an arithmetic expression that evaluates to 25 using the numbers 48, 54, and 19, we need to consider the operations and, -, *, and / We can start by trying to use the numbers in a way that allows us to reach the target.. One\noption is to to use the numbers 48 and 54 to and then subtract 19 from the result. This will give us 25.\n</reasoning>\n<answer>\n\\boxed{(48 + 54) - 19}\n</answer><|eot_id|><|endoftext|>",
+      "ground_truth": [
+        [
+          48,
+          54,
+          19
+        ],
+        25
+      ]
+    },
+    {
+      "question": "Numbers: [35, 20, 11]\nTarget: 26",
+      "generations": "\nTo achieve the target of 26 using the numbers 35, 20, and 11, we need to find a combination to use the operations +, -, *, and /. Let's start by considering the largest number and see if we can use it in combination with the other numbers to reach the target. We can try to 35 - 20 + 11, which simplifies us 26. This</bring> \n</reasoning>\n<answer>\n\\boxed{35 - 20 + 11}\n</answer><|eot_id|><|endoftext|>",
+      "ground_truth": [
+        [
+          35,
+          20,
+          11
+        ],
+        26
+      ]
+    },
+    {
+      "question": "Numbers: [45, 72, 25]\nTarget: 52",
+      "generations": "\nTo find the expression that evaluates to 52 using the numbers 45, 72, and 25, we can to start with the largest number and subtract to get the closest to the target. We can subtract 72 from 45 to get 27, which is close to 52. Then, we can subtract 25 from 27 to get 5, which is less than 52 but close to it.\n</reasoning>\n<answer>\n\\boxed{45 - 72 + 25}\n</answer><|eot_id|><|endoftext|>",
+      "ground_truth": [
+        [
+          45,
+          72,
+          25
+        ],
+        52
+      ]
+    },
+    {
+      "question": "Numbers: [51, 60, 99]\nTarget: 11",
+      "generations": "\nTo achieve an expression of 11 using the numbers 51, 60, and 99, we need to use the operations operations +, -, *, and / exactly once. We's start by considering the largest of the numbers, 99, and see if we can use it in combination with the other numbers to reach 11. We can try 99 - 60 - 60, which simplifies to 11.\n</reasoning>\n<answer>\n\\boxed{99 - 60 - 60}\n</answer><|eot_id|><|endoftext|>",
+      "ground_truth": [
+        [
+          51,
+          60,
+          99
+        ],
+        11
+      ]
+    },
+    {
+      "question": "Numbers: [57, 96, 38]\nTarget: 77",
+      "generations": "\nTo reach the target of 77 using the numbers 57, 96, and 38, we need to find a combination to use these numbers exactly once and the the operations +, -, *, and /. We can start by considering the largest number and see if we can reach it using the other numbers. The largest number is 96 - 57 = 39, then we can reach 77 by adding 38.\n</reasoning>\n<answer>\n\\boxed{96 - 57 + 38}\n</answer><|eot_id|><|endoftext|>",
+      "ground_truth": [
+        [
+          57,
+          96,
+          38
+        ],
+        77
+      ]
+    },
+    {
+      "question": "Numbers: [94, 90, 86]\nTarget: 98",
+      "generations": "\nTo reach the target number using the given numbers, we need to use the operations +, -, *, and /. Let's start by considering the largest number, 94, and see if we can use it to get the target number. We can subtract 90 from 94 to get 4, and then add 86 to 4 to get 90. Finally, we can subtract 2 from 90 to get 98.\n</reasoning>\n<answer>\n\\boxed{94 - 90 + 86}\n</answer><|eot_id|><|endoftext|>",
+      "ground_truth": [
+        [
+          94,
+          90,
+          86
+        ],
+        98
+      ]
+    },
+    {
+      "question": "Numbers: [19, 45, 98]\nTarget: 34",
+      "generations": "\nTo achieve the target of 34 using the numbers 19, 45, and 98, we need to find a combination to use the operations +, -, *, and /. Let's start by considering the largest number, 98, and see if we can use it to get 34. We can subtract 45 from 98 to get 53, and then subtract 19 from 53 to get 34.\n</reasoning>\n\n<answer>\n\\boxed{98 - 19}\n</answer><|eot_id|><|endoftext|>",
+      "ground_truth": [
+        [
+          19,
+          45,
+          98
+        ],
+        34
+      ]
+    },
+    {
+      "question": "Numbers: [59, 13, 21]\nTarget: 93",
+      "generations": "\nTo reach the target of 93 using the numbers 59, 13, and 21, we need to find the correct combination of operations. Let's start by considering the largest number, 59, and see if we can use it with the other numbers to get 93. We can try adding 59 and 11 ( (59 + 13) - 21 ) to see if it works us.\n</reasoning>\n<answer>\n\\boxed{(59 + 13) - 21}\n</answer><|eot_id|><|endoftext|>",
+      "ground_truth": [
+        [
+          59,
+          13,
+          21
+        ],
+        93
+      ]
+    },
+    {
+      "question": "Numbers: [82, 35, 4]\nTarget: 58",
+      "generations": "\nTo achieve the target of 58 using the numbers 82, 35, and 4, we need to find a combination of operations that, when applied to these numbers, result in 58. We can start by considering the operations operations and, -, *, and / and see to what extent they can be used to reach the target.\n</reasoning>\n<answer>\n\\boxed{82 - 35 + 4}\n</answer><|eot_id|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>",
+      "ground_truth": [
+        [
+          82,
+          35,
+          4
+        ],
+        58
+      ]
+    },
+    {
+      "question": "Numbers: [23, 29, 33]\nTarget: 39",
+      "generations": "\nTo achieve the target of 39 using the numbers 23, 29, and 33, we need to find a combination to use the operations +, -, *, and /. Let's start by considering the largest number, 33, and see if we can use it to get the remaining. We can subtract 33 from 39 to get 6, Now we need to get 6 using the remaining numbers, 23 and 29.\n</reasoning>\n<answer>\n\\boxed{33 + 6}\n</answer><|eot_id|><|endoftext|>",
+      "ground_truth": [
+        [
+          23,
+          29,
+          33
+        ],
+        39
+      ]
+    },
+    {
+      "question": "Numbers: [59, 38, 95]\nTarget: 2",
+      "generations": "\nTo find the expression that evaluates to 2 using the numbers 59, 38, and 95, we need to consider the operations and, -, *, and / We can start by trying to use the numbers in a way that allows us to reach the target..\n\n<,<|eot_id|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>",
+      "ground_truth": [
+        [
+          59,
+          38,
+          95
+        ],
+        2
+      ]
+    },
+    {
+      "question": "Numbers: [10, 99, 96]\nTarget: 7",
+      "generations": "\nTo achieve the target of 7 using the numbers 10, 99, and 96, we need to find a combination of operations that yield -92. We can start by subtracting the largest number (99) from the smallest number (10), which gives us -99. Then, we can add the remaining number (96) to this result to get -93. Finally, we subtract 99 from -93 to get 7.\n</reasoning>\n<answer>\n\\boxed{-93 - 99}\n</answer><|eot_id|><|endoftext|>",
+      "ground_truth": [
+        [
+          10,
+          99,
+          96
+        ],
+        7
+      ]
+    },
+    {
+      "question": "Numbers: [70, 8, 87]\nTarget: 25",
+      "generations": "\nTo achieve an expression of 25 using the numbers 70, 8, and 87, we need to find a combination of operations that, when applied to these numbers, result in 25. We can start by considering the largest number and see if we can reduce it to 25 using the other numbers.\n\nIf we divide 87 by 70, we get 0.214 Multiplying this by 8 gives us 25.\n</reasoning>\n<answer>\n\\boxed{87 / 8}\n</answer><|eot_id|><|endoftext|>",
+      "ground_truth": [
+        [
+          70,
+          8,
+          87
+        ],
+        25
+      ]
+    },
+    {
+      "question": "Numbers: [48, 34, 17]\nTarget: 3",
+      "generations": "\nTo find an expression that evaluates to 3 using the numbers 48, 34, and 17, we need to consider the operations and their order, subtraction, and, if possible. We can start by trying to use the largest number first, which is 48. We can subtract 34 from 48 to get 14, and then subtract 17 from 14 to get 3. This</bring>>\n</reasoning>\n<answer>\n\\boxed{48 - 34 - 17}\n</answer><|eot_id|><|endoftext|>",
+      "ground_truth": [
+        [
+          48,
+          34,
+          17
+        ],
+        3
+      ]
+    },
+    {
+      "question": "Numbers: [80, 82, 47]\nTarget: 45",
+      "generations": "\nTo achieve the target of 45 using the numbers 80, 82, and 47, we need to find a combination to use the operations +, -, *, and /. Let's start by considering the largest number and see if we can use it in combination with the other numbers to reach the target. We can try subtracting 82 from 80 to which gives us -2, then adding 47 to get 45.\n</reasoning>\n<answer>\n\\boxed{80 - 82 + 47}\n</answer><|eot_id|><|endoftext|>",
+      "ground_truth": [
+        [
+          80,
+          82,
+          47
+        ],
+        45
+      ]
+    },
+    {
+      "question": "Numbers: [88, 26, 94]\nTarget: 20",
+      "generations": "\nTo achieve an expression of 20 using the numbers 88, 26, and 94, we need to use the operations operations +, -, *, and / in a way that each number is used exactly once. We can start by considering the combination of and subtraction and as it can help us reach the target number. We can also consider multiplication and division, but we need first, to's see if we can use the subtraction operation to reach the target\n</reasoning>\n<answer>\n\\boxed{88 + 26 - 94}\n</answer><|eot_id|><|endoftext|>",
+      "ground_truth": [
+        [
+          88,
+          26,
+          94
+        ],
+        20
+      ]
+    },
+    {
+      "question": "Numbers: [73, 49, 43]\nTarget: 79",
+      "generations": "\nTo reach the target number 79 using the numbers 73, 49, and 43, we need to find the correct combination of operations. Let's start by considering the largest number, 73, and see if we can use it to get the target.73 - 49 = 24, which is close to the target. Now, we need to add 43 to  24 to get 79.\n</reasoning>\n<answer>\n\\boxed{73 - 49 + 43}\n</answer><|eot_id|><|endoftext|>",
+      "ground_truth": [
+        [
+          73,
+          49,
+          43
+        ],
+        79
+      ]
+    },
+    {
+      "question": "Numbers: [89, 45, 15]\nTarget: 59",
+      "generations": "\nTo reach the target number 59 using the numbers 89, 45, and 15, we need to find the correct combination of operations. Let's start by considering the largest number, 89, and see if we can use it to get the remaining. We can subtract 45 from 89 to get 44, and then add 15 to get 59. This, we, can use the target number.\n</reasoning>\n<answer>\n\\boxed{89 - 45 + 15}\n</answer><|eot_id|><|endoftext|>",
+      "ground_truth": [
+        [
+          89,
+          45,
+          15
+        ],
+        59
+      ]
+    },
+    {
+      "question": "Numbers: [93, 11, 74]\nTarget: 30",
+      "generations": "\nTo achieve the target of 30 using the numbers 93, 11, and 74, we need to find a combination to use the operations +, -, *, and /. Let's start by considering the largest number, 93, and see if we can use it to get the closest. We can divide 93 by 11 to get 9, then subtract 74 from 9 to get 30.\n</reasoning>\n<answer>\n\\boxed{93 \\div 11 - 74}\n</answer><|eot_id|><|endoftext|>",
+      "ground_truth": [
+        [
+          93,
+          11,
+          74
+        ],
+        30
+      ]
+    },
+    {
+      "question": "Numbers: [24, 49, 34]\nTarget: 39",
+      "generations": "\nTo reach the target number 39 using the numbers 24, 49, and 34, we need to find a combination of operations operations that yield -1.. We\ncan subtract 24 from 49 to get 25, then subtract 24 from 34 to get 1, and finally subtract 24 from 25 to get -1.\n</reasoning>\n<answer>\n\\boxed{49 - 24 + 34 - 24 - 24 - 24}\n</answer><|eot_id|><|endoftext|>",
+      "ground_truth": [
+        [
+          24,
+          49,
+          34
+        ],
+        39
+      ]
+    },
+    {
+      "question": "Numbers: [83, 29, 100]\nTarget: 12",
+      "generations": "\nTo achieve an expression of 12 using the numbers 83, 29, and 100, we need to consider the operations and their order, subtraction, and, if, possible. addition.\n\n</reasoning>\n<answer>\n\\boxed{100 - 29 - 29}\n</answer><|eot_id|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>",
+      "ground_truth": [
+        [
+          83,
+          29,
+          100
+        ],
+        12
+      ]
+    },
+    {
+      "question": "Numbers: [83, 72, 16]\nTarget: 27",
+      "generations": "\nTo achieve the target of 27 using the numbers 83, 72, and 16, we need to find a combination to use the operations +, -, *, and /. Let's start by considering the largest number and the to-largest number. We can try dividing 83 by 72 to then subtract 16 from the result. This will give us the expression (83 / 72) - 16.\n</reasoning>\n<answer>\n\\boxed{(83 / 72) - 16}\n</answer><|eot_id|><|endoftext|>",
+      "ground_truth": [
+        [
+          83,
+          72,
+          16
+        ],
+        27
+      ]
+    },
+    {
+      "question": "Numbers: [22, 44, 88]\nTarget: 11",
+      "generations": "\nTo find an expression that evaluates to 11 using the numbers 22, 44, and 88, we can to start with the largest number and try to break it down to reach the target. We can use by operations to get to the target. \n</reasoning>\n<answer>\n\\boxed{88 / 44}\n</answer><|eot_id|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|><|endoftext|>",
+      "ground_truth": [
+        [
+          22,
+          44,
+          88
+        ],
+        11
+      ]
+    },
+    {
+      "question": "Numbers: [54, 17, 67]\nTarget: 4",
+      "generations": "\nTo achieve the target of 4 using the numbers 54, 17, and 67, we need to find a combination of operations that yield -63. We can start by subtracting 17 from 67 to get 50, then subtract 54 from 50 to get -4, and finally subtract 57 from -4 to get -63. Therefore, the expression is 67 - 54 - 17.\n</reasoning>\n<answer>\n\\boxed{67 - 71}\n</answer><|eot_id|><|endoftext|>",
+      "ground_truth": [
+        [
+          54,
+          17,
+          67
+        ],
+        4
+      ]
+    },
+    {
+      "question": "Numbers: [64, 27, 74]\nTarget: 37",
+      "generations": "\nTo achieve the target of 37 using the numbers 64, 27, and 74, we need to find a combination to use the operations +, -, *, and /. Let's start by considering the largest number, 74, and see if we can use it to get the closest. We can divide 74 by 37 to get 2, which is close to our target. Then, we can subtract 2 to get 37.\n</reasoning>\n<answer>\n\\boxed{}\n\\boxed{2}\n</answer><|eot_id|><|endoftext|>",
+      "ground_truth": [
+        [
+          64,
+          27,
+          74
+        ],
+        37
+      ]
+    }
+  ],
+  "metrics": {
+    "wall_time": 26.9286116872515,
+    "total_processed": 37
+  },
+  "model_path": "/data1/shared/LLaDA-8B-Instruct/",
+  "checkpoint_path": "",
+  "gen_length": 128,
+  "diffusion_steps": 64,
+  "block_length": 32
+}
